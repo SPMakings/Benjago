@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sp.benjago.SignUpActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/landing_bg" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/logo_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo" />
+
+            <EditText
+                android:id="@+id/fst_name"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_above="@+id/password"
+                android:layout_alignLeft="@+id/lets_go"
+                android:layout_alignRight="@+id/lets_go"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/input_field"
+                android:gravity="center"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:singleLine="true"
+                android:textColor="@color/splashTextColor"
+                android:textColorHint="@color/splashTextColor"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/lst_name"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_above="@+id/password"
+                android:layout_alignLeft="@+id/lets_go"
+                android:layout_alignRight="@+id/lets_go"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/input_field"
+                android:gravity="center"
+                android:hint="Last Name"
+                android:inputType="textPersonName"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:singleLine="true"
+                android:textColor="@color/splashTextColor"
+                android:textColorHint="@color/splashTextColor"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_above="@+id/password"
+                android:layout_alignLeft="@+id/lets_go"
+                android:layout_alignRight="@+id/lets_go"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/input_field"
+                android:gravity="center"
+                android:hint="User Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:singleLine="true"
+                android:textColor="@color/splashTextColor"
+                android:textColorHint="@color/splashTextColor"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/phone_no"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_above="@+id/password"
+                android:layout_alignLeft="@+id/lets_go"
+                android:layout_alignRight="@+id/lets_go"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/input_field"
+                android:gravity="center"
+                android:hint="Phone Number"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:singleLine="true"
+                android:textColor="@color/splashTextColor"
+                android:textColorHint="@color/splashTextColor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dob"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_above="@+id/password"
+                android:layout_alignLeft="@+id/lets_go"
+                android:layout_alignRight="@+id/lets_go"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/input_field"
+                android:gravity="center"
+                android:hint="Date of Birth"
+                android:inputType="date"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:singleLine="true"
+                android:textColor="@color/splashTextColor"
+                android:textColorHint="@color/splashTextColor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_above="@+id/password"
+                android:layout_alignLeft="@+id/lets_go"
+                android:layout_alignRight="@+id/lets_go"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/input_field"
+                android:gravity="center"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:singleLine="true"
+                android:text="Address"
+                android:textColor="@color/splashTextColor"
+                android:textColorHint="@color/splashTextColor"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_above="@+id/password"
+                android:layout_alignLeft="@+id/lets_go"
+                android:layout_alignRight="@+id/lets_go"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/input_field"
+                android:gravity="center"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:singleLine="true"
+                android:textColor="@color/splashTextColor"
+                android:textColorHint="@color/splashTextColor"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/cnfrm_password"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_above="@+id/password"
+                android:layout_alignLeft="@+id/lets_go"
+                android:layout_alignRight="@+id/lets_go"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/input_field"
+                android:gravity="center"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:singleLine="true"
+                android:textColor="@color/splashTextColor"
+                android:textColorHint="@color/splashTextColor"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/gender_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="16dp"
+                android:weightSum="2">
+
+                <RadioButton
+                    android:id="@+id/malehit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="Male"
+                    android:textColor="@color/off_white"
+                    android:textSize="18sp" />
+
+
+                <RadioButton
+                    android:id="@+id/frmalrhit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Female"
+                    android:textColor="@color/off_white"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+            <CheckBox
+                android:id="@+id/accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="   Accept terms and condition"
+                android:textColor="@color/off_white"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/lets_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/letsgo" />
+
+
+            <ProgressBar
+                android:id="@+id/progressBar_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

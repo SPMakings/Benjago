@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Benjago</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="splash_text">Learn to drive with a teacher close to you</string>
+    <string name="signin_text">Create an Account and register my settings</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_gate_way">GateWayActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
